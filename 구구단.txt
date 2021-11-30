@@ -1,0 +1,38 @@
+//평균값//
+
+let array = [10, 20, 30, 40, 50];
+let result = 0;
+
+for (let value of array) {
+    result += value;
+}
+console.log(result/array.length);
+
+
+//while 구구단//
+
+1)
+
+let i =2;
+let j= 1;
+while (i<10) {
+    while (j<10) {
+    console.log (`${i} x ${j} = ${i*j}`);
+    j++;
+                }
+i++;
+j=1;
+    }
+
+
+2)
+
+let i = 2;
+while(i<=9){
+	let j =1;
+    	while(j<=9){
+        		console.log(`${i} x ${j} = ${i*j}`);
+        		j++;
+    	}
+    	i++;
+}
